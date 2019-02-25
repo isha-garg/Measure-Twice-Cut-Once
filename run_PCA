@@ -1,7 +1,7 @@
 def run_PCA(activations_collect,key_idx, components, threshold=0.999):
         """threshold for minimal loss in performance=0.999
         activations_collect  function gathers activations over enough mini batches.
-        components=number of filters in the layer you are compressing"
+        components=number of filters in the layer you are compressing"""
         
         print('number of components are',components)
         activations=activations_collect[key_idx]#.replace('.weight','')] 
